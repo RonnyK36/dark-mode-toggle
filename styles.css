@@ -19,6 +19,7 @@ body {
   background-color: lightgray;
   border-radius: 20px;
   cursor: pointer;
+  transition: 0.9s;
 }
 
 .circle {
@@ -38,6 +39,7 @@ body {
 
 .input:checked + .label .circle {
   animation: toggleOn 0.4s linear forwards;
+  background-color: black;
 }
 
 @keyframes toggleOn {
